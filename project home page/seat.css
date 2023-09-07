@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background:linear-gradient(to right,rgb(177, 177, 243),rgb(165, 146, 250));
+  }
+  
+  h1 {
+    margin-bottom: 70px;
+    margin-left: 30px;
+  }
+
+  .seats-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0px;
+  }
+  .seat.sold
+  {
+    background-color: rgb(202, 54, 54);
+  }
+  
+  .seat {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: rgb(44, 36, 63);
+    border: 1px solid rgb(243, 240, 240);
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  
+  .seat.selected {
+    background-color: rgb(26, 109, 26);
+  }
+  .booked{
+    background-color: rgb(255, 50, 146);
+  }
+  .seats-type{
+    cursor: default;
+  transform: scale(1);
+  }
+  

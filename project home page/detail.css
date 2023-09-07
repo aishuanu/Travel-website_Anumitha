@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+.self
+{
+  margin-top: 0%;
+  margin-left: 15%;
+}
+.detail{
+  margin-top: 0%;
+}
+:root {
+  background: linear-gradient(to right,rgb(248, 175, 187),#94bbe9,#94bbe9,rgb(248, 175, 187));
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  --fg: #black;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+}
+form {
+  margin-left: 30%;
+ /* border: 2px solid;
+  border-left: 20px;*/
+  padding: 20px;
+  font-size: 26px;
+  text-transform:uppercase;
+  font-weight: 200px;
+  height: 100vh;
+}
+
+form input {
+  display: flex;
+  display: #3232b6;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 400px;
+  transition: 0.3s;
+}
+
+form input:hover {
+  box-shadow: 0 0 50px rgb(4, 16, 19);
+}
+select{
+  width: 200px;
+  height:50px;
+  border-radius: 10px;
+}
+.center{
+  background: linear-gradient(to right,rgb(178, 178, 245),rgb(245, 162, 175));
+  color: var(--fg);
+  padding: 7px 60px;
+  border-radius: 50px;
+  margin-left: 7.5%;
+  cursor: pointer;
+  text-decoration: none;
+}
+input[type="date"]::-webkit-calender-picker-indicator{
+cursor: pointer;
+position: absolute;
+height:50px;
+width:300px;
+}
